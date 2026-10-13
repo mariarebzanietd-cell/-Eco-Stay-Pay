@@ -172,14 +172,14 @@ if st.session_state['show_modal'] == 'connexion':
 
 # --- SIDEBAR ---
 st.sidebar.markdown("## 🔗 Lien du Site")
-st.sidebar.info("**URL :** `http://localhost:8508/`")
+st.sidebar.info("**URL :** `https://9mrhkpcgpa5rcmpga7x2m4.streamlit.app`")
 
 import qrcode
 from PIL import Image
 import io
 
 qr = qrcode.QRCode(version=1, box_size=10, border=4)
-qr.add_data("http://localhost:8508/")
+qr.add_data(" https://9mrhkpcgpa5rcmpga7x2m4.streamlit.app")
 qr.make(fit=True)
 img = qr.make_image(fill_color="#1B4332", back_color="white")
 buf = io.BytesIO()
