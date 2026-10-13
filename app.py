@@ -307,7 +307,7 @@ with tab_site:
         hotel_sel = st.session_state['hotel_selectionne']
         @st.dialog(f"🛏️ Réserver : {hotel_sel['name']}")
         def modal_reservation():
-            st.markdown(f"""<div style="background: linear-gradient(135deg, #1B4332, #2D6A4F); padding: 15px 20px; border-radius: 10px; margin-bottom: 20px; color: white;">
+            st.markdown(f"""<div style="background: linear-gradient(135deg, #C8E6C9; /* Un vert très clair et lumineux */, #C8E6C9; /* Un vert très clair et lumineux */); padding: 15px 20px; border-radius: 10px; margin-bottom: 20px; color: white;">
                 <h3 style="margin: 0; color: white;">{hotel_sel['name']}</h3>
                 <p style="margin: 5px 0 0 0; color: #b7e4c7; font-size: 14px;">📍 {hotel_sel['city']} | 💰 {hotel_sel['price']} € / nuit</p></div>""", unsafe_allow_html=True)
             with st.form("form_modal"):
