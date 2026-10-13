@@ -47,7 +47,7 @@ st.markdown("""
         border-radius: 10px 10px 0 0;
     }
     .stTabs [data-baseweb="tab"][aria-selected="true"] {
-        color: #1B4332;
+        color: #C8E6C9; /* Un vert très clair et lumineux */;
         background: rgba(27, 67, 50, 0.12);
         border-bottom: 4px solid #1B4332;
     }
