@@ -1,6 +1,7 @@
 streamlit
-easyocr
-pillow
-numpy
-qrcode
 pandas
+pillow
+qrcode
+folium
+streamlit-folium
+streamlit-option-menu
